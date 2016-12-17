@@ -9,11 +9,23 @@ Keep your eyes peeled for interesting commentary and things. Here's what I have 
 
 - hacking
 - devops
-- engineering
+- software engineering
+- distributed databases (Cassandra, Elasticsearch)
+- streaming platforms / lambda architecture
+- big data
+- optimization (or the lack thereof)
+- software design
+- software books :)
+- probably a suspicious amount of Amazon Web Services
 
 And perhaps more importantly, here's what I do not have in mind.
 
 - current events
 - family life (this is a hacking blog)
+
+Here are some people that have inspired me to start writing, or folks whom I generally respect and admire. You should read them!
+
+- [Dan Luu](http://danluu.com/)
+- [John Roesler](http://blog.vvcephei.org/)
 
 See you around the internets!
