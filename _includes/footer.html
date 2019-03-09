@@ -1,4 +1,19 @@
-<div class="footer">
-  <span class="block">Made with &hearts; using <a href="http://jekyllrb.com/">Jekyll</a> &amp; <a href="https://github.com/heiswayi/the-plain" title="The Plain theme by Heiswayi Nrird">The Plain</a> &middot; &lt;/&gt; on <a href="https://github.com/{{ site.github_username }}" title="Hosted on GitHub">GitHub</a></span>
-  <span class="block">&copy; {{ site.time | date: '%Y' }} {{ site.author_name }}</span>
-</div>
+<footer class="center">
+  <div class="measure">
+    <small>
+      Theme crafted with &lt;3 by <a href="http://johnotander.com">John Otander</a> (<a href="https://twitter.com/4lpine">@4lpine</a>).<br>
+      &lt;/&gt; available on <a href="https://github.com/johnotander/pixyll">GitHub</a>.
+    </small>
+  </div>
+</footer>
+{% if site.enable_anchorjs %}<!-- AnchorJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/3.0.0/anchor.min.js"></script>
+<script>
+    anchors.options.visible = 'always';
+    anchors.add('article h2, article h3, article h4, article h5, article h6');
+</script>{% endif %}
+<script type="text/javascript">
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("{{ '/sw.js' | relative_url }}")
+    }
+</script>
